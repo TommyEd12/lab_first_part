@@ -10,6 +10,7 @@ namespace Lab
         {
             _value = value;
         }
+        
         public MyString(MyString other)
         {
             _value = other._value;
