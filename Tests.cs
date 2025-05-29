@@ -7,6 +7,7 @@ namespace Lab
             Console.WriteLine("Запуск тестов класса MyString и ExtendedString...");
             TestMyString();
             TestExtendedString();
+            TestUserInput();
             Console.WriteLine("Все тесты завершены.");
         }
 
@@ -30,6 +31,29 @@ namespace Lab
             extStr.AddExclamations();
             Console.WriteLine($"Со знаками: {extStr}");
             Console.WriteLine();
+        }
+
+        private static void TestUserInput()
+        {
+            try
+            {
+                Console.WriteLine("Введите строку");
+                var input = Console.ReadLine();
+                if (input == "" || input == null)
+                {
+                    Console.WriteLine();
+                    throw new Exception();
+                }
+                var mystr = new MyString(input);
+                mystr.AddExclamations();
+                Console.WriteLine(mystr.ToString());
+            }
+            catch 
+            {
+                Console.WriteLine("Передана пустая строка!");
+                
+            }
+            
         }
     }
 }
