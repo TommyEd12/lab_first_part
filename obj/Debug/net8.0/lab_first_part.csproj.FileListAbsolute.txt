@@ -12,3 +12,4 @@ C:\Users\egorb\OneDrive\Рабочий стол\Studying\node_js_projects\lab\la
 C:\Users\egorb\OneDrive\Рабочий стол\Studying\node_js_projects\lab\lab_first_part\obj\Debug\net8.0\lab_first_part.pdb
 C:\Users\egorb\OneDrive\Рабочий стол\Studying\node_js_projects\lab\lab_first_part\obj\Debug\net8.0\lab_first_part.genruntimeconfig.cache
 C:\Users\egorb\OneDrive\Рабочий стол\Studying\node_js_projects\lab\lab_first_part\obj\Debug\net8.0\ref\lab_first_part.dll
+C:\Users\egorb\OneDrive\Рабочий стол\Studying\node_js_projects\lab\lab_first_part\obj\Debug\net8.0\lab_first_part.sourcelink.json

@@ -1,5 +1,3 @@
-using System;
-
 namespace Lab
 {
     class Tests
@@ -30,7 +28,7 @@ namespace Lab
             Console.WriteLine($"Количество слов: {extStr.CountWords()}");
             Console.WriteLine($"Количество символов: {extStr.CountCharacters()}");
             extStr.AddExclamations();
-            Console.WriteLine($"После добавления восклицательных знаков: {extStr}");
+            Console.WriteLine($"Со знаками: {extStr}");
             Console.WriteLine();
         }
     }

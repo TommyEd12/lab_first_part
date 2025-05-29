@@ -1,5 +1,4 @@
-﻿using System;
-using Lab;
+﻿using Lab;
 
 class Program
 {
